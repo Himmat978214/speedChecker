@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Speed">
+        <div class="slds-m-around_medium slds-grid slds-grid_vertical">
+            <lightning-input label="Enter Speed !!!" type="number" value={percentage} onchange={handleChange} ></lightning-input>
+           
+
+            <lightning-button label="Check" onclick={handleClick} class="slds-m-top_medium" style="text-align:center"></lightning-button>
+             <div style={progressBarStyle}></div>
+        </div>
+    </lightning-card>     
+</template>
